@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Veterinary Shop</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="terms_condition"><![CDATA[Terms & Condition]]></string>
+
+    <string-array name="cities">
+        <item>Delhi</item>
+        <item>Mumbai</item>
+        <item>Bangalore</item>
+        <item>Mysore</item>
+        <item>Mangalore</item>
+        <item>Hydrabad</item>
+        <item>Ahmedabad</item>
+        <item>Chennai</item>
+        <item>Kolkata</item>
+        <item>Surat</item>
+
+    </string-array>
+    <string-array name="timming">
+        <item>9 AM</item>
+        <item>10 AM</item>
+        <item>11 AM</item>
+        <item>12 PM</item>
+        <item>2 PM</item>
+        <item>3 AM</item>
+        <item>4 AM</item>
+        <item>5 AM</item>
+    </string-array>
+    <string-array name="Doctors">
+        <item>Dr.Devi Shetty</item>
+        <item>Dr.Deepak Chopra</item>
+        <item>Dr.Indira Hinduja</item>
+        <item>Dr.A. G. K. Gokhale</item>
+        <item>Dr. Kamini A. Rao</item>
+
+    </string-array>
+
+    <string name="navigation_drawer_open">open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+</resources>

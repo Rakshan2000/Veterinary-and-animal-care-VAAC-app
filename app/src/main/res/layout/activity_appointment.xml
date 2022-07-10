@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".appointment"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/appointment"
+        android:paddingLeft="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/bangers_regular"
+            android:gravity="left"
+            android:text="APPOINTMENT"
+            android:textColor="@color/blue"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/back4"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="160dp"
+            android:src="@drawable/back2"
+            />
+        <TextView
+            android:id="@+id/back_text"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:fontFamily="@font/montserrat_bold"
+            android:textSize="15dp"
+            />
+
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <EditText
+        android:id="@+id/first"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="175dp"
+        android:layout_marginRight="175dp"
+        android:layout_marginBottom="536dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:fontFamily="@font/montserrat_light"
+        android:inputType="textPersonName"
+        android:hint="  First Name"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/last"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="536dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:fontFamily="@font/montserrat_light"
+        android:inputType="textPersonName"
+        android:hint="  Last Name"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/first"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="268dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="454dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:fontFamily="@font/montserrat_light"
+        android:hint="  Date of Birth"
+        android:inputType="date"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/first"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginBottom="470dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/first"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/date_icon"
+        tools:ignore="VectorDrawableCompat" />
+
+    <EditText
+        android:id="@+id/doa"
+        android:layout_width="268dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="394dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:fontFamily="@font/montserrat_light"
+        android:hint="  Date of Appointment"
+        android:inputType="date"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/dob"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="394dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/appointment_icon"
+        tools:ignore="VectorDrawableCompat" />
+
+    <Spinner
+        android:id="@+id/time_ap"
+        android:layout_width="268dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="328dp"
+        android:background="@drawable/input"
+        android:entries="@array/timming"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.211"
+        app:layout_constraintStart_toEndOf="@+id/imageView21"
+        app:layout_constraintTop_toBottomOf="@+id/doa"
+        app:layout_constraintVertical_bias="0.562" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:srcCompat="@drawable/time"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="25dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="251dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView21"
+        app:srcCompat="@drawable/doctor_icon" />
+
+    <Spinner
+        android:id="@+id/doctor_ap"
+        android:layout_width="269dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintStart_toEndOf="@+id/imageView22"
+        app:layout_constraintTop_toBottomOf="@+id/time_ap"
+        app:layout_constraintVertical_bias="0.0"
+        android:background="@drawable/input"
+        android:entries="@array/Doctors"
+        />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView22"
+        app:layout_constraintVertical_bias="0.083"
+        app:srcCompat="@drawable/helpline_icon"
+        tools:ignore="VectorDrawableCompat" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="277dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="42dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint=" Phone"
+        android:textColorHint="@color/black"
+        android:fontFamily="@font/montserrat_light"
+        android:background="@drawable/input"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.215"
+        app:layout_constraintStart_toEndOf="@+id/imageView23"
+        app:layout_constraintTop_toBottomOf="@+id/doctor_ap"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/submit_ap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:background="@drawable/button1"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montserrat_bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone"
+        app:layout_constraintVertical_bias="0.339" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

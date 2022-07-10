@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "312385582438",
+    "project_id": "veterinary-shop",
+    "storage_bucket": "veterinary-shop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312385582438:android:ded955425aa059ef2f04a7",
+        "android_client_info": {
+          "package_name": "com.example.veterinaryshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312385582438-peiildoad46s9l7gl2gko7eiceu59ftc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAR8FCV90fr_E6Yepn94-A3PfV5p5UUTM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312385582438-peiildoad46s9l7gl2gko7eiceu59ftc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

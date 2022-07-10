@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:background="@color/baby_pink"
+    >
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="313dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="84dp"
+        android:fontFamily="@font/bangers_regular"
+        android:text="HELLO THERE !"
+        android:textColor="@color/blue"
+        android:textSize="51dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.356"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:fontFamily="@font/montserrat_light"
+        android:text="you are not a member?"
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login"
+        app:layout_constraintVertical_bias="0.355" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="119dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Need Help?"
+        android:textColor="@color/red"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toEndOf="@+id/login"
+        app:layout_constraintTop_toBottomOf="@+id/p1" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Register"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.303"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.385" />
+
+    <EditText
+        android:id="@+id/p1"
+        android:layout_width="313dp"
+        android:layout_height="46dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint =" Password"
+        android:textColorHint="@color/blue"
+        android:fontFamily="@font/montserrat_medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.367"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/u1"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="162dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@color/white"
+        android:text="Login"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p1" />
+
+    <EditText
+        android:id="@+id/u1"
+        android:layout_width="313dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="  Email Address"
+        android:textColorHint="@color/blue"
+        android:fontFamily="@font/montserrat_medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.367"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="30dp"
+        android:layout_height="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045"
+        app:srcCompat="@drawable/back" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
